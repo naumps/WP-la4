@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Order Form</title>
+</head>
+<body>
+<form action="/lab/pizza_index" method="get">
+    <input type="radio" name="pizzaType" th:value="${list[0]}">Small <br>
+    <input type="radio" name="pizzaType" th:value="${list[0]}">Medium <br>
+    <input type="radio" name="pizzaType" th:value="${list[0]}">Large <br>
+    <input type="submit" value="Submit" />
+</form>
+
+</body>
+</html>
